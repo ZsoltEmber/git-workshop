@@ -9,7 +9,7 @@ function main() {
     const beers = getBeers();
 
     for(let beer of beers){
-        console.log(`Beer: ${beer.name}`)
+        console.log(`${beer.name} ${beer.brewery}`);
     }
 }
 
